@@ -178,7 +178,7 @@ function get_specs(){
     
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-  <a class="navbar-brand" href="#"><i class="fa fa-user-plus" aria-hidden="true"></i> Global Hospital </a>
+  <a class="navbar-brand" href="#"></i> Medidek </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -309,7 +309,7 @@ function get_specs(){
                   
                   <!-- <?php
 
-                        $con=mysqli_connect("localhost","root","","myhmsdb");
+                        $con=mysqli_connect("localhost","u572490144_root","M3didek1234","u572490144_medidek");
                         $query=mysqli_query($con,"select username,spec from doctb");
                         $docarray = array();
                           while($row =mysqli_fetch_assoc($query))
